@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Archer Car Dealership</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="Images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href=""> HOME</a></li>
+                    <li><a href="brands.html"> BRANDS</a></li>
+                    <li><a href=""> ABOUT</a></li>
+                    <li><a href="contact.html"> CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> The Best Car Dealership in Kenya</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Rerum, voluptatem. 
+                Delectus id ipsum voluptate tempora rem enim deleniti, 
+                eaque eos aperiam at, asperiores deserunt voluptas nostrum quos voluptates, 
+                ullam inventore.</p>
+                <a href="contact.html" class="hero-btn">Visit Us to find out more</a>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
