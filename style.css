@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(47, 255, 0, 0.5),rgba(0,0,0,0.5)), url(Images/banner.jpg);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5),rgba(0,0,0,0.5)), url(Images/banner.jpg);
     background-position:center;
     background-size: cover;
     position: relative;
@@ -77,8 +77,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #0ac513;
-    background: #0ac513;
+    border: 1px solid #ff0000;
+    background: #ff0000;
     transition: 1s;
 }
 nav .fa{
@@ -93,7 +93,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: #0ac513;
+        background: #ff0000;
         height: 100vh;
         width: 200px;
         top: 0;
